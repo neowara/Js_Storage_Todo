@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="site.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js.js"></script>
   </head>
 
@@ -22,14 +23,17 @@
             <a class="nav-link text-white" href="contact.html">Contact</a>
     </nav>
             <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="mail" placeholder="E-mail" aria-label="mail">
-                    <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Log in</button>
+                    <input class="form-control mr-sm-2" id="username" type="mail" placeholder="Username" aria-label="mail">
+                    <input class="form-control mr-sm-2" id="username" type="password" placeholder="Password" aria-label="password">
+                    <button class="btn btn-outline-success my-2 my-sm-0" id="submit" type="submit">Log in</button>
                   </form>
     </header>
     <!-- NavBar -->
 
-    <div id="main"> Welcome! Please log in.</div>
+    <div id="main"> Welcome! Please log in.
+        <p class="valid">Valid. Please wait a moment.</p>
+        <p class="error">Error. Please enter correct Username &amp; password.</p>
+    </div>
 
 
 
