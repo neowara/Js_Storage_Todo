@@ -72,8 +72,8 @@ header {
     color: #0077e2;
 }
 
-#myFooter .google:hover {
-    color: #ef1a1a;
+#myFooter .instagram:hover {
+    color: #e78719;
 }
 
 #myFooter .twitter:hover {
@@ -81,7 +81,9 @@ header {
 }
 
 #main {
-    min-height: 750px;
+    min-height: 500px;
+    text-align: center;
+    padding-top: 90px;
 }
 
 #myFooter .btn {
@@ -116,4 +118,3 @@ footer {
     -webkit-flex: 0 0 auto;
  }
 
- .error, .valid{display:none;}

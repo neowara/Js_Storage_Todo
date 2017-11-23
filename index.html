@@ -23,16 +23,22 @@
             <a class="nav-link text-white" href="contact.html">Contact</a>
     </nav>
             <form class="form-inline my-2 my-lg-0">
+                    <div class="loginform">
                     <input class="form-control mr-sm-2" id="username" type="mail" placeholder="Username" aria-label="mail">
-                    <input class="form-control mr-sm-2" id="username" type="password" placeholder="Password" aria-label="password">
-                    <button class="btn btn-outline-success my-2 my-sm-0" id="submit" type="submit">Log in</button>
+                    <input class="form-control mr-sm-2" id="password" type="password" placeholder="Password" aria-label="password">
+                    </div>
+                    <button class="btn btn-outline-success my-2 my-sm-0" id="login" type="submit">Log in</button>
+                    <button class="btn btn-outline-success my-2 my-sm-0" id="logout" type="submit">Log out</button>
                   </form>
     </header>
     <!-- NavBar -->
 
-    <div id="main"> Welcome! Please log in.
+    <div id="main"> 
+        <div class="hejString"></div>
+        <p class="welcomemsg" >Welcome! Please log in.</p>
         <p class="valid">Valid. Please wait a moment.</p>
         <p class="error">Error. Please enter correct Username &amp; password.</p>
+        <a href="#" class="forgotpass">Forgot password?</a>
     </div>
 
 
@@ -59,7 +65,7 @@
                     <div class="col-sm-3">
                         <h5>About me & my work</h5>
                         <ul>
-                            <li><a href="http://christiantoledo.wieg17.se/Real_Fake_Doors/index.html">Real Fake Doors</a></li>
+                            <li><a href="http://christiantoledo.wieg17.se/VRink/">VR-Ink</a></li>
                             <li><a href="http://christiantoledo.wieg17.se/Forest_Shrooms/index.html">Forest Shrooms</a></li>
                         </ul>
                     </div>
